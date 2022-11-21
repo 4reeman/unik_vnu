@@ -1,0 +1,63 @@
+/*
+Theme Name: Bootstrap 4 Sass
+Description: Bootstrap 4 with Sass
+*/
+
+// import files
+@import "import";
+
+/* GENERAL STYLES
+-------------------------------------------------*/
+
+body {
+  background: $gradient-body;
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+
+/* COLORS
+--------------------------------------------------*/
+
+a {
+  color: $accent-shade;
+}
+
+.bg-inverse {
+  background: $primary-shade !important;
+}
+
+.site-footer {
+  background: $accent-shade !important;
+}
+
+.menu--main li a {
+  color: $white;
+}
+
+.menu--account li a {
+  color: $primary-shade;
+}
+
+.site-name-slogan a {
+  text-decoration: none;
+}
+
+.card-group img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.card-group .field--type-image {
+  margin: 0
+}
+
+.slick {
+  width: 100%;
+}
+
+.slick>div {
+  margin: 0 15px;
+}
+//@import 'custom/abstract/_reset.scss';

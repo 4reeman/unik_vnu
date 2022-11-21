@@ -1,0 +1,36 @@
+uuid: 04943c5e-0dcb-4901-8fe0-7d59e57e67a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.news_paragraph.field_image
+    - field.field.paragraph.news_paragraph.field_text_field_1
+    - paragraphs.paragraphs_type.news_paragraph
+  module:
+    - media_library
+    - text
+id: paragraph.news_paragraph.default
+targetEntityType: paragraph
+bundle: news_paragraph
+mode: default
+content:
+  field_image:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_text_field_1:
+    type: text_textarea_with_summary
+    weight: 0
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

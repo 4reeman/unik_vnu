@@ -1,0 +1,38 @@
+uuid: 41657f0b-81be-4b9c-be06-5e8d4dd7b506
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.front_slider.field_slide_
+    - field.field.node.front_slider.field_slide_image
+    - node.type.front_slider
+  module:
+    - text
+    - user
+id: node.front_slider.default
+targetEntityType: node
+bundle: front_slider
+mode: default
+content:
+  field_slide_:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_slide_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

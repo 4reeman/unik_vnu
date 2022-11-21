@@ -1,0 +1,15 @@
+uuid: 6017e26e-a783-47d0-affb-c86553a90111
+langcode: en
+status: true
+dependencies: {  }
+name: slik_image
+label: 'Slik Image'
+effects:
+  bd3f237d-7315-46ab-9c57-44cd904fc1aa:
+    uuid: bd3f237d-7315-46ab-9c57-44cd904fc1aa
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 400
+      anchor: center-center

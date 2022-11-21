@@ -1,0 +1,15 @@
+uuid: c2790cf3-7ed9-4276-b484-cab62fe88da1
+langcode: en
+status: true
+dependencies: {  }
+name: news_main_image_905x605_
+label: 'News Main Image (905x605)'
+effects:
+  55de9db6-b1a1-4f34-a6ee-ca1f7f9e975f:
+    uuid: 55de9db6-b1a1-4f34-a6ee-ca1f7f9e975f
+    id: image_crop
+    weight: 1
+    data:
+      width: 905
+      height: 605
+      anchor: center-center

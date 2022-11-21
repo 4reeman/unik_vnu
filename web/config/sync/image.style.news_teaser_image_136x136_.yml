@@ -1,0 +1,15 @@
+uuid: ca4370d1-cc4f-4ae2-a3d7-ea883f1052de
+langcode: en
+status: true
+dependencies: {  }
+name: news_teaser_image_136x136_
+label: 'News Teaser Image (136x136)'
+effects:
+  799df1ca-6fba-464c-846c-a5f8d0947487:
+    uuid: 799df1ca-6fba-464c-846c-a5f8d0947487
+    id: image_crop
+    weight: 1
+    data:
+      width: 136
+      height: 136
+      anchor: center-center

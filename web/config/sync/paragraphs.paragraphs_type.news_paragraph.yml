@@ -1,0 +1,10 @@
+uuid: b2adb496-6ffd-499f-b74e-dbef6787b85e
+langcode: en
+status: true
+dependencies: {  }
+id: news_paragraph
+label: 'News Paragraph'
+icon_uuid: null
+icon_default: null
+description: 'text and images rendered on news nodes'
+behavior_plugins: {  }

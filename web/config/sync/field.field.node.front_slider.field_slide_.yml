@@ -1,0 +1,21 @@
+uuid: 9ee7cfe6-cfd2-43cd-bc5c-6266a94cc9c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slide_
+    - node.type.front_slider
+  module:
+    - text
+id: node.front_slider.field_slide_
+field_name: field_slide_
+entity_type: node
+bundle: front_slider
+label: 'Slide Text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

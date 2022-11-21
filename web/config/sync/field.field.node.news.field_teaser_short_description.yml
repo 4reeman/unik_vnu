@@ -1,0 +1,21 @@
+uuid: 8267fab1-cdc3-469a-949c-591c5e66ddf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_short_description
+    - node.type.news
+  module:
+    - text
+id: node.news.field_teaser_short_description
+field_name: field_teaser_short_description
+entity_type: node
+bundle: news
+label: 'Teaser Short Description'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

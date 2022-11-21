@@ -1,0 +1,14 @@
+global-styling:
+  version: VERSION
+  js:
+    dist/js/vendorScript/vendorScript.bundle.js: {}
+    dist/js/themeScript/themeScript.bundle.js: {}
+  css:
+    base:
+      dist/css/vendorStyle/vendorStyle.css: { minified: true }
+      dist/css/themeStyle/themeStyle.css: { minified: true }
+  dependencies:
+    - core/jquery
+    - core/once
+    - core/drupal
+    - core/popperjs

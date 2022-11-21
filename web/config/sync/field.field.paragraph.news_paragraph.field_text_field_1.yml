@@ -1,0 +1,23 @@
+uuid: 86d07d93-8f45-463b-abae-7378db25a2c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_field_1
+    - paragraphs.paragraphs_type.news_paragraph
+  module:
+    - text
+id: paragraph.news_paragraph.field_text_field_1
+field_name: field_text_field_1
+entity_type: paragraph
+bundle: news_paragraph
+label: 'text field'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary
